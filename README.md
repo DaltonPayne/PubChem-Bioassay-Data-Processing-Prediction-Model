@@ -59,3 +59,6 @@ This project aims to streamline the process of downloading and processing bioass
 ## Usage Instructions
 
 Follow the scripts in the order presented to ensure smooth data processing. Each script must be run individually, with the output from one script generally serving as the input for the next. For model visualization and prediction, run the provided Jupyter Notebook, following the example usage steps.
+
+## Feature Analysis Visualization Examples
+![image](https://github.com/DaltonPayne/PubChem-Bioassay-Data-Processing-Prediction-Model/assets/67125850/dcea9599-e64a-422a-a042-2dc2f6e1612b)
