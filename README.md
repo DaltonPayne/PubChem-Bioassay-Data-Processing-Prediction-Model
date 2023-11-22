@@ -1,8 +1,11 @@
-# README for PubChem Bioassay Data Processing & Prediction Model
+# PubChem Bioassay Data Processing & Prediction Model 
 
 ## Introduction
 
 This project aims to streamline the process of downloading and processing bioassay data from PubChem, focusing on target bioassays. The project uses the D(2) dopamine receptor as an example, utilizing the file `pubchem_protacxn_P14416_bioactivity_protein`. This README details the steps and scripts for parsing bioassay data, extracting molecular descriptors, and organizing information based on activity types such as IC50, EC50, and Ki.
+
+This is a simple pipeline for downloading, processing, and analyzing bioassay data from PubChem. I focused on the D(2) dopamine receptor, utilizing the file `pubchem_protacxn_P14416_bioactivity_protein.csv` as downloaded from [PubChem](https://pubchem.ncbi.nlm.nih.gov/protein/P14416#section=BioAssays) for this example. It includes scripts for data parsing, molecular descriptor extraction, and data organization based on activity types (IC50, EC50, Ki). It also features a Jupyter Notebook equipped with machine learning models (Random Forest, XGBoost) for visualizing features and predicting bioactivity, using evolutionary algorithms for model optimization. 
+
 
 ## Steps and Scripts
 
@@ -61,4 +64,13 @@ This project aims to streamline the process of downloading and processing bioass
 Follow the scripts in the order presented to ensure smooth data processing. Each script must be run individually, with the output from one script generally serving as the input for the next. For model visualization and prediction, run the provided Jupyter Notebook, following the example usage steps.
 
 ## Feature Analysis Visualization Examples
+Descriptor importance for IC50:
 ![image](https://github.com/DaltonPayne/PubChem-Bioassay-Data-Processing-Prediction-Model/assets/67125850/dcea9599-e64a-422a-a042-2dc2f6e1612b)
+
+Descriptor importance for EC50:
+![image](https://github.com/DaltonPayne/PubChem-Bioassay-Data-Processing-Prediction-Model/assets/67125850/ad32ea38-5569-404a-a56e-52dbc5007aad)
+
+Descriptor importance for Ki:
+![image](https://github.com/DaltonPayne/PubChem-Bioassay-Data-Processing-Prediction-Model/assets/67125850/a1bdd367-f6d4-4685-b882-ab1732ecd5a8)
+
+
