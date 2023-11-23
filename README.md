@@ -1,4 +1,4 @@
-# PubChem Bioassay Data Processing & Prediction Model 
+# PubChem Bioassay Data Processing & Prediction Model Pipeline
 
 ## Introduction
 
